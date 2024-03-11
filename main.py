@@ -3,7 +3,7 @@ import tkinter as tk
 import threading
 from tkinter import ttk, PhotoImage
 
-
+#Проверка изменений
 class PomodoroTimer:
     def __init__(self):
         self.root = tk.Tk()
