@@ -8,10 +8,10 @@ class PomodoroTimer:
     def __init__(self):
         self.root = tk.Tk()
         self.root.geometry("600x455")
-        self.root.title("Pomodoro Timer Shizofreniya")
+        self.root.title("Pomodoro Timer")
 
         self.root.tk.call('wm', 'iconphoto', self.root,
-                          PhotoImage(file="qH_QZnh01xQ.png"))
+                          PhotoImage(file="pom.png"))
 
         self.background_img = PhotoImage(file="MGaeyyp.png")
         self.background_label = tk.Label(self.root, image=self.background_img)
